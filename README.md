@@ -3,7 +3,7 @@ One click to run Postgres (with Adminer) into GitPod.
 
 ![GitPod Postgres Adminer](./gitpod-postgres.gif)
 
-[![Open in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/marcopeg/gitpod-postgres)
+[![Open in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/loopRW/gitpod-postgres-unimiDB)
 
 Or go check the DockerHUB page:  
 https://hub.docker.com/r/marcopeg/gitpod-workspace-postgres
