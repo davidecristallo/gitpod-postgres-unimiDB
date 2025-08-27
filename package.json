@@ -1,0 +1,4 @@
+"scripts": {
+  "start": "node index.js",
+  "populate-db": "psql -h db -U fotogram_user -d fotogram_db -f creazione.txt"
+}
