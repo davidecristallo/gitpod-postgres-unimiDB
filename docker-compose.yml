@@ -5,14 +5,14 @@ services:
     image: postgres:15
     restart: always
     environment:
-      POSTGRES_USER: fotogram_user
-      POSTGRES_PASSWORD: fotogram_password
-      POSTGRES_DB: fotogram_db
+      POSTGRES_USER: gitpod
+      POSTGRES_PASSWORD: gitpod
+      POSTGRES_DB: postgres
     ports:
       - "5432:5432"
     volumes:
       - db-data:/var/lib/postgresql/data
-  
+
   adminer:
     image: adminer
     restart: always
